@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 150" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bulbGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFD700" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#FFD700" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <circle cx="85" cy="75" r="65" fill="#D6F2F5" />
+
+  <path d="M 45 125 Q 85 115 115 130 C 110 140 60 142 45 125 Z" fill="#139598" />
+
+  <g id="boy" transform="translate(15, 10)">
+    <path d="M 55 105 Q 65 95 85 95 Q 80 115 65 120 Z" fill="#139598" />
+    <path d="M 70 100 Q 80 110 90 115 L 85 120 Z" fill="#139598" />
+    
+    <path d="M 45 90 Q 55 65 75 70 Q 85 85 75 100 Q 55 100 45 90 Z" fill="#FFFFFF" stroke="#139598" stroke-width="2.5" stroke-linejoin="round"/>
+    
+    <path d="M 55 75 Q 70 85 70 100" fill="none" stroke="#139598" stroke-width="2.5" stroke-linecap="round"/>
+    
+    <path d="M 40 55 Q 40 75 60 75 Q 80 70 75 50" fill="#FFFFFF" stroke="#139598" stroke-width="2.5"/>
+    <circle cx="72" cy="70" r="4" fill="#FFFFFF" stroke="#139598" stroke-width="2"/>
+    
+    <path d="M 30 50 Q 35 30 60 30 Q 85 35 80 50 Q 75 40 65 45 Q 55 35 45 45 Q 40 40 30 50 Z" fill="#139598" />
+    
+    <path d="M 40 60 Q 35 60 38 65" fill="none" stroke="#139598" stroke-width="2" stroke-linecap="round"/>
+
+    <circle cx="55" cy="55" r="2.5" fill="#139598" />
+    <circle cx="68" cy="55" r="2.5" fill="#139598" />
+    <path d="M 52 50 Q 55 48 58 50" fill="none" stroke="#139598" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M 65 50 Q 68 48 71 50" fill="none" stroke="#139598" stroke-width="1.5" stroke-linecap="round"/>
+    
+    <path d="M 60 63 Q 62 61 64 63" fill="none" stroke="#139598" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+
+  <g id="idea" transform="translate(105, 30)">
+    <circle cx="-15" cy="45" r="2.5" fill="#139598" />
+    <circle cx="-10" cy="38" r="3.5" fill="#139598" />
+    <circle cx="-5" cy="30" r="4.5" fill="#139598" />
+
+    <circle cx="10" cy="10" r="20" fill="url(#bulbGlow)" />
+    
+    <path d="M 0 10 C 0 -5 20 -5 20 10 C 20 20 15 20 15 25 L 5 25 C 5 20 0 20 0 10 Z" fill="#FFD700" stroke="#EAB308" stroke-width="1"/>
+    
+    <path d="M 5 15 Q 10 5 15 15" fill="none" stroke="#FFF" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+
+    <rect x="6" y="25" width="8" height="5" fill="#139598" rx="1"/>
+    <rect x="7" y="30" width="6" height="2" fill="#139598" rx="1"/>
+  </g>
+
+  <text x="175" y="93" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-weight="800" font-size="52" fill="#000000" letter-spacing="-1">Mind2Site</text>
+</svg>
