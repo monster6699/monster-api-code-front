@@ -27,7 +27,7 @@ const baseURL = import.meta.env.VITE_API_BASE_URL ?? ''
 
 const request = axios.create({
   baseURL: baseURL ? `${baseURL}/api` : '/api',
-  timeout: 5000, // 请求超时时间
+  timeout: 10000, // 请求超时时间
   withCredentials: true, // 允许携带 Cookie
 })
 

@@ -58,10 +58,14 @@ const dropdownItems = computed(() => [
 
 <template>
   <div class="w-full flex items-center justify-between gap-4 max-w-6xl mx-auto">
-    <div class="flex items-center gap-2 md:gap-3">
-      <img src="@/assets/logo.svg" alt="编程导航" style="height: 60px; width: auto; object-fit: contain" />
+    <div class="flex items-center gap-2 md:gap-3 pt-10px">
+      <img
+        src="@/assets/logo.svg"
+        alt="编程导航"
+        style="height: 50px; width: auto; object-fit: contain"
+      />
     </div>
-    <div v-if="appMenus.length > 0" class="flex flex-1 items-center justify-center">
+    <div v-if="appMenus.length > 1" class="flex flex-1 items-center justify-center">
       <Menu
         mode="horizontal"
         theme="light"

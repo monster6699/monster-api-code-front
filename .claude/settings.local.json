@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:minimax-algeng-chat-tts.oss-cn-wulanchabu.aliyuncs.com)",
+      "WebFetch(domain:nocode.cn)",
+      "Bash(gh pr list)",
+      "mcp__zai-mcp-server__analyze_image",
+      "Bash(curl -s \"https://minimax-algeng-chat-tts.oss-cn-wulanchabu.aliyuncs.com/ccv2%2F2026-03-02%2FMiniMax-M2.5%2F2027266895765312183%2Fed380f53feacf87e129573a36747c5460c00c8ed26df57f0c6d29e4922e3f542..png?Expires=1772509426&OSSAccessKeyId=LTAI5tGLnRTkBjLuYPjNcKQ8&Signature=RsG9cMfU7Ee4zz3mAlcSmL3kDk0%3D\" -o /tmp/img1.png)",
+      "Bash(curl -s \"https://minimax-algeng-chat-tts.oss-cn-wulanchabu.aliyuncs.com/ccv2%2F2026-03-02%2FMiniMax-M2.5%2F2027266895765312183%2F9e09420a287ac865e9888ea0e71688a668bd43af3a1cdfc8238cf49b48c0a06c..png?Expires=1772509427&OSSAccessKeyId=LTAI5tGLnRTkBjLuYPjNcKQ8&Signature=CBPyQxqibwswNFmyEFd1gbjGyNU%3D\" -o /tmp/img2.png)"
+    ]
+  }
+}
